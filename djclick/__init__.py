@@ -13,7 +13,7 @@ __url__ = 'https://github.com/GaretJax/django-click'
 __author__ = 'Jonathan Stoppani'
 __email__ = 'jonathan@stoppani.name'
 __license__ = 'MIT'
-__all__ = click.__all__ + ['pass_verbosity']
+__all__ = dir(click) + ['pass_verbosity']
 
 
 del click
